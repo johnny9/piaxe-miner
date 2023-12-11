@@ -261,7 +261,7 @@ class BM1366Miner:
                        self.hardware.reset_func)
 
         # init bm1366
-        bm1366.init(485)
+        bm1366.init(300)
         #logging.info("waiting for chipid response ...")
         #init_response = bm1366.receive_work()
 
